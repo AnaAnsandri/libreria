@@ -1,0 +1,147 @@
+/*DESDE ACA LO Q VA SIEMPRE*/
+.recomendados{
+    width: 150px;
+    height: 220px;
+    margin: 5px;
+    margin-bottom: 1px;
+  }
+  
+  #perfil{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%; 
+  }
+  #navBar{
+    background-image:linear-gradient(to right,#862fb1, #ac2929, #6b403b);
+    align-items: baseline;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+  }  
+  body{
+    background-color: rgba(255, 255, 255, 0.692);
+    margin: 0px;
+  }
+  #tres_rayas{
+    margin: 10px;
+    align-items: center;  
+  }
+  .libros_recomendados{
+    text-align: center;
+  }
+  .barra_de_busqueda{
+    float: right;
+    margin-top: 10px;
+    align-items: center;   
+  }
+  #valor{
+    margin-right: 10px;
+    margin-left: 1px;
+    color: black;
+  }
+  .img_carrito{
+    margin-left: 10px;
+  }
+  .categories a:hover {
+    color: #921b92e5;
+  }
+  
+  .categories a:active {
+    color: #972222;
+  }
+  .categories {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Courier New", monospace;
+  }
+  .menu-horizontal{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    width: 10px;
+    position:left, fixed ;
+  }
+  .menu-horizontal{
+    text-decoration: none;
+  }
+  .menu-vertical{
+    z-index: 4;
+    margin-left: -1.99999999%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -1%;
+    padding: 15px;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    background-image:linear-gradient(to right, #882fa9, #8b2ea1, #8b2e9d, #8d2e99, #8e2e93, #902e8e, #912d88);
+  }
+  a{
+    text-decoration: none;
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  
+  #navBar_bajo{
+    background-image:linear-gradient(to right,#772fb1, #992271e5, #ac2929, #6b403b);
+    align-items: baseline;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+  }
+  #contenedor_navBar_bajo{
+    align-items: center;
+  }
+  
+  .search-container {
+    position:right, fixed ;
+    margin-top: 10px;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    border-radius: 40px 40px 40px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+  }
+  
+  #search-input {
+    color: white;
+    background: transparent;
+    padding: 10px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid #00000000;
+    border: none;
+    /*saca borde blanco, si no funciona (#search-input:focus)*/
+    outline: none;
+  }
+  
+  #search{
+    width: 50%;
+  }
+  
+  #search-button {
+    font-size: 16px;
+    background-color: #0000009d;
+    color: rgb(255, 255, 255);
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #000000;
+  }
+  .blanco{
+    height: 15px;
+    margin-bottom: 30px;
+  }
+  /*HASTA ACA LO Q VA SIEMPRE*/

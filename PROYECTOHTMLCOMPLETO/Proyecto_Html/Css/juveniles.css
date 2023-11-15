@@ -1,0 +1,50 @@
+.blanco{
+  height: 15px;
+  margin-bottom: 30px;
+}
+.slick{
+  position: relative;
+  width: 255px;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+.slick h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  padding: 15px;
+}
+.slick h4 small{
+  font-size: 15px;
+  display: block;
+}
+.slick a img{
+  object-fit: cover;
+  height: 300px;
+  border-radius: 4px;
+  transition: .3s ease-in-out;
+}
+a{
+  text-decoration: none;
+}
+.precioynombre{
+  color: black;
+  max-width: 194.3;
+  font-size: medium;
+  max-height: 8%; 
+}
+.contenedor{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.no_hay_resultados{
+  margin-right: 80%;
+  margin-bottom: 10px;
+  font-size: 55PX;
+}
+#texto{
+  display: block;
+}
