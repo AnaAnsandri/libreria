@@ -8,7 +8,7 @@ public class Departamento {
     public String getEmpleado() {
         return nombres;
     }
-     public Department(Empleados empleado) {
+     public Departmento(Empleados empleado) {
         this.empleado = empleado;
     }
 
