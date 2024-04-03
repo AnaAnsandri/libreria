@@ -1,10 +1,10 @@
 public class Empleado {
     private String nombre;
-    private Departamento dept;
+    private String Dep;
     public String getNombre() {
         return nombre;
     }
-    public Departamento getDept() {
+    public Departamento getDep() {
         return dept;
     }
 }
