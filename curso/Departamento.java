@@ -1,10 +1,18 @@
 public class Departamento {
     private String nombres;
-    private Empleado empleados;
-    public void asignar(Empleado nuevoEmpleado){
-        empleados = nuevoEmpleado;
+    private Empleados empleado;
+    
+    public void assign(Empleados empleado_uno) {
+        empleado = empleado_uno;
     }
-    public Empleado getEmpleados() {
-        return empleados;
+    public String getEmpleado() {
+        return nombres;
+    }
+     public Department(Empleados empleado) {
+        this.empleado = empleado;
+    }
+
+    public Departamento(String nombre) {
+        this.nombre = nombre;
     }
 }
